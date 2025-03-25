@@ -44,7 +44,7 @@
 .modal-header {
   display: none;
   position: fixed;
-  width: 93%;
+  width: 94%;
   top: 0px !important;
   left: 40px;
   margin: auto;
@@ -200,7 +200,7 @@ html[dir="rtl"] .modal-header {
 
 @media screen and (max-width: 1240px) {
   .modal-header {
-    width: 92%;
+    /* width: 92%; */
     top: 0px;
     left: 36px;
   }
@@ -218,7 +218,7 @@ html[dir="rtl"] .modal-header {
 }
 @media screen and (max-width: 1118px) {
   html[dir="rtl"] .modal-header {
-    left: 52px;
+    left: 30px;
   }
 }
 @media screen and (max-width: 960px) {
@@ -226,7 +226,7 @@ html[dir="rtl"] .modal-header {
     left: 28px;
   }
   html[dir="rtl"] .modal-header {
-    left: 46px;
+    left: 30px;
   }
 }
 @media screen and (max-width: 840px) {
@@ -234,7 +234,7 @@ html[dir="rtl"] .modal-header {
     left: 20px;
   }
   html[dir="rtl"] .modal-header {
-    left: 42px;
+    left: 25px;
   }
 }
 /* @media screen and (max-width: 767px) {
@@ -248,74 +248,83 @@ html[dir="rtl"] .modal-header {
 } */
 @media screen and (max-width: 737px) {
   .modal-header {
-    width: 91%;
+    /* width: 91%; */
     left: 23px;
   }
   html[dir="rtl"] .modal-header {
-    left: 40px;
+    left: 24px;
   }
 }
-@media screen and (max-width: 698px) {
+@media screen and (max-width: 695px) {
   .modal-header {
-    width: 91%;
-    left: 22px;
+    width: 92%;
+    left: 25px;
+  }
+  html[dir="rtl"] .modal-header {
+    left: 28px;
   }
 }
 @media screen and (max-width: 617px) {
   .modal-header {
-    width: 90%;
-    left: 20px;
+    /* width: 90%; */
+    left: 23px;
   }
   html[dir="rtl"] .modal-header {
-    left: 40px;
+    left: 25px;
   }
 }
 @media screen and (max-width: 518px) {
   html[dir="rtl"] .modal-header {
-    left: 35px;
+    left: 25px;
   }
 }
 @media screen and (max-width: 514px) {
   .modal-header {
-    width: 90%;
+    /* width: 90%; */
     left: 15px;
   }
 }
 @media screen and (max-width: 484px) {
   .modal-header {
-    left: 15px;
+    left: 22px;
   }
   html[dir="rtl"] .modal-header {
-    left: 30px;
+    left: 25px;
   }
 }
 @media screen and (max-width: 460px) {
   .modal-header {
-    width: 90%;
-    left: 11px;
+    /* width: 90%; */
+    left: 19px;
+  }
+  html[dir="rtl"] .modal-header {
+    left: 18px;
   }
 }
 @media screen and (max-width: 385px) {
   .modal-header {
-    width: 88%;
-    left: 11px;
+    /* width: 88%; */
+    left: 17px;
+  }
+  html[dir="rtl"] .modal-header {
+    left: 15px;
   }
   .modal-title {
     padding: 10px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 351px) {
   /* .card-item {
     width: 250px;
   } */
   .modal-header {
-    left: 12px;
+    left: 13px;
   }
   .card-title {
     font-size: 18px;
   }
   html[dir="rtl"] .modal-header {
-    left: 30px;
+    left: 13px;
   }
 }
 .download-links {
@@ -340,10 +349,10 @@ html[dir="rtl"] .modal-header {
 @media screen and (max-width: 318px) {
   .modal-header {
     width: 88%;
-    left: 8px;
+    left: 16px;
   }
   html[dir="rtl"] .modal-header {
-    left: 27px;
+    left: 15px;
   }
 }
 @media screen and (max-width: 380px) {
