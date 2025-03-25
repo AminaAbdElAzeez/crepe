@@ -30,3 +30,6 @@ body {
     margin: 8px auto;
   }
 }
+:where(.css-7ny38l).ant-modal .ant-modal-content {
+  padding: 20px 10px !important;
+}
