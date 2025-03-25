@@ -110,6 +110,10 @@
 :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
   > .ant-collapse-item
   > .ant-collapse-header
+  .ant-collapse-expand-icon,
+:where(.css-7ny38l).ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
   .ant-collapse-expand-icon {
   height: 15px !important;
   /* padding-inline-end: 10px; */
@@ -215,6 +219,10 @@
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
+    .ant-collapse-expand-icon,
+  :where(.css-7ny38l).ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header
     .ant-collapse-expand-icon {
     height: 10px !important;
     /* padding-inline-end: 8px; */
@@ -240,6 +248,10 @@
     font-size: 6px !important;
   }
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-expand-icon,
+  :where(.css-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-expand-icon {
