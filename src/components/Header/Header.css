@@ -1,0 +1,46 @@
+.pages-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* position: fixed; */
+  /* top: 20px; */
+  /* width: 100%; */
+  /* text-align: center; */
+}
+.pages-title {
+  text-align: center;
+  font-size: 30px;
+  color: #8bc341;
+  width:max-content
+}
+.pages-title:hover {
+  animation: focus-in-expand 1s linear 0s 1 normal none;
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 601px) {
+  .pages-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pages-title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 367px) {
+  .pages-title {
+    font-size: 16px;
+  }
+}
+/* :where(.css-dev-only-do-not-override-7ny38l).ant-modal .ant-modal-header {
+  padding-top: 60px;
+} */

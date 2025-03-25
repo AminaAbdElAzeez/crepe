@@ -1,0 +1,193 @@
+.download {
+  margin-bottom: 30px;
+}
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding-top: 60px;
+}
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 250px;
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+.download-left {
+  flex: 2;
+}
+.download-right {
+  flex: 1;
+}
+/* .download-left,
+.download-right {
+  width: 50%;
+} */
+.download-title {
+  width: 100%;
+  color: #292929;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.download-title > span {
+  color: #8dc63f;
+}
+.download-title + p {
+  font-size: 25px;
+  color: #1e1e1e;
+  text-transform: capitalize;
+}
+.download-right {
+  text-align: right;
+  /* padding-top: 60px; */
+  cursor: pointer;
+}
+.download-right img {
+  max-width: 360px;
+  max-height: 360px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  animation: circular-move 3s linear infinite running;
+  -webkit-animation: circular-move 3s linear infinite running;
+}
+.download-right img:hover {
+  animation-play-state: paused;
+}
+@keyframes circular-move {
+  0% {
+    transform: rotate(0deg) translate(20px) rotate(0deg);
+    -webkit-transform: rotate(0deg) translate(20px) rotate(0deg);
+    -moz-transform: rotate(0deg) translate(20px) rotate(0deg);
+    -ms-transform: rotate(0deg) translate(20px) rotate(0deg);
+    -o-transform: rotate(0deg) translate(20px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(20px) rotate(-360deg);
+    -webkit-transform: rotate(360deg) translate(20px) rotate(-360deg);
+    -moz-transform: rotate(360deg) translate(20px) rotate(-360deg);
+    -ms-transform: rotate(360deg) translate(20px) rotate(-360deg);
+    -o-transform: rotate(360deg) translate(20px) rotate(-360deg);
+  }
+}
+@media screen and (max-width: 1349px) {
+  .download-content {
+    gap: 80px;
+  }
+  .download-title {
+    font-size: 40px;
+  }
+  .download-right img {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .download-content {
+    gap: 70px;
+  }
+  .download-title {
+    font-size: 32px;
+  }
+  .download-title + p {
+    font-size: 22px;
+  }
+  .download-right img {
+    width: 280px;
+    height: 280px;
+  }
+  .download-title br,
+  .download-title + p > br {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .download {
+    margin-bottom: 60px;
+  }
+  .download-content {
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  /* .download-left,
+  .download-right {
+    width: 100%;
+    text-align: center;
+  } */
+  .download-title {
+    font-size: 26px;
+  }
+  .download-title + p {
+    font-size: 16px;
+  }
+  /* .download-right {
+    padding-top: 50px;
+  } */
+  /* .download-left {
+    display: none;
+  } */
+  .download-right img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+@media screen and (max-width: 535px) {
+  .download-content {
+    gap: 15px;
+  }
+  .download-title {
+    font-size: 20px;
+  }
+  .download-title + p {
+    font-size: 14px;
+  }
+  .download-right img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  @keyframes circular-move {
+    0% {
+      transform: rotate(0deg) translate(10px) rotate(0deg);
+      -webkit-transform: rotate(0deg) translate(10px) rotate(0deg);
+      -moz-transform: rotate(0deg) translate(10px) rotate(0deg);
+      -ms-transform: rotate(0deg) translate(10px) rotate(0deg);
+      -o-transform: rotate(0deg) translate(10px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(10px) rotate(-360deg);
+      -webkit-transform: rotate(360deg) translate(10px) rotate(-360deg);
+      -moz-transform: rotate(360deg) translate(10px) rotate(-360deg);
+      -ms-transform: rotate(360deg) translate(10px) rotate(-360deg);
+      -o-transform: rotate(360deg) translate(10px) rotate(-360deg);
+    }
+  }
+}
+@media screen and (max-width: 410px) {
+  .download-title {
+    font-size: 18px;
+  }
+  .download-right img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+@media screen and (max-width: 328px) {
+  .download-title {
+    font-size: 16px;
+  }
+  .download-title + p {
+    font-size: 12px;
+  }
+  .download-right img {
+    max-width: 90px;
+    max-height: 90px;
+  }
+}

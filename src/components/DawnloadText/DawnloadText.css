@@ -1,0 +1,37 @@
+.download-text {
+    text-align: center;
+    display: none;
+    padding: 0 20px;
+}
+.download-text-title {
+    height: auto;
+    font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+
+}
+  .download-text-title + p {
+    font-size: 22px;
+  }
+  .download-text-title + p > br {
+    display: none;
+  }
+.download-text-title > span {
+    color: #8dc63f;
+  }
+  .download-text-title > br {
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    .download-text {
+        display: block;
+    }
+  }
+ @media screen and (max-width: 445px) {
+    .download-text-title {
+        font-size: 24px;
+    }
+      .download-text-title + p {
+        font-size: 18px;
+      }
+ }

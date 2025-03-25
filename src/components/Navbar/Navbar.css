@@ -1,0 +1,142 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  box-shadow: 1px 1px 26px -7px #8dc63f;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ant-dropdown {
+  z-index: 9999999999999;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 35px 168px 11px #8dc63f;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.ant-btn {
+  height: 50px;
+  width: 50px;
+  color: #8dc63f;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #8dc63f;
+}
+.ant-dropdown {
+  z-index: 9999999999999;
+}
+/* :where(.css-dev-only-do-not-override-7ny38l).ant-btn-variant-outlined:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover,
+:where(.css-dev-only-do-not-override-7ny38l).ant-btn-variant-dashed:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover {
+  color: #8dc63f;
+  border-color: #8dc63f;
+  background: #ffffff;
+} */
+.lang-toggle-btn {
+  margin: 0 10px;
+  width: 45px;
+  height: 45px;
+}
+.lang-toggle-btn:hover {
+  border-color: #8dc63f !important;
+  color: #8dc63f !important;
+}
+.contact-btn {
+  background-color: #8dc63f;
+  display: inline-block;
+  margin-left: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.contact-btn:hover {
+  color: #8dc63f;
+}
+.contact-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 94%;
+  z-index: -1;
+  height: 0;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+}
+.contact-btn:hover:after {
+  height: 85%;
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 3px;
+    filter: blur(12px);
+    opacity: 0;
+    -webkit-filter: blur(12px);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .contact-btn {
+    width: 115px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .lang-toggle-btn {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+  }
+}

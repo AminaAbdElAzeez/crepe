@@ -1,0 +1,10 @@
+.styles-module_chatBody__VBxQH .styles-module_message__Z9MOV {
+  max-width: calc(100% - 0px) !important;
+}
+:dir(ltr) .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV {
+  text-align: left;
+}
+
+:dir(rtl) .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV {
+  text-align: right;
+}
