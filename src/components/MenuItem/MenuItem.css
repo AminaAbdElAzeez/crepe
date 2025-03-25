@@ -183,13 +183,13 @@
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header {
-    padding: 12px 8px;
+    padding: 12px 8px !important;
   }
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-arrow {
-    font-size: 10px;
+    font-size: 10px !important;
   }
   /* :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
@@ -210,7 +210,7 @@
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-arrow {
-    font-size: 8px;
+    font-size: 8px !important;
   }
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
@@ -237,14 +237,14 @@
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-arrow {
-    font-size: 6px;
+    font-size: 6px !important;
   }
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-expand-icon {
     height: 6px !important;
-    padding-inline-end: 8px;
+    padding-inline-end: 8px !important;
   }
 }
 @media screen and (max-width: 605px) {
