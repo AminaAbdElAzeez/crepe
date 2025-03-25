@@ -52,7 +52,7 @@
   z-index: 1050;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 0 10px;
   /*border-bottom: 1px solid #ddd;
   */ /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   */
@@ -131,6 +131,7 @@ html[dir="rtl"] .modal-header {
   height: auto;
   overflow: hidden;
   z-index: 99999999;
+  position: relative;
 }
 .backBtn {
   width: 40px !important;

@@ -2,7 +2,8 @@
   display: flex;
   /* align-items: flex-start; */
   align-items: stretch;
-  gap: 13px;
+  justify-content: center;
+  gap: 15px;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -35,7 +36,7 @@
 }
 @media screen and (max-width: 827px) {
   .pages-menu-content {
-    gap: 10px;
+    gap: 12px;
   }
   .cairo-img {
     margin: 0px auto 0px auto;
@@ -43,22 +44,22 @@
 }
 @media screen and (max-width: 669px) {
   .pages-menu-content {
-    gap: 8px;
+    gap: 10px;
   }
 }
 
 @media screen and (max-width: 563px) {
   .pages-menu-content {
-    gap: 5px;
+    gap: 7px;
   }
 }
 @media screen and (max-width: 405px) {
   .pages-menu-content {
-    gap: 4px;
+    gap: 5px;
   }
 }
 @media screen and (max-width: 300px) {
   .pages-menu-content {
-    gap: 3px;
+    gap: 4px;
   }
 }

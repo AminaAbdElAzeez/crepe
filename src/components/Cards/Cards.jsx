@@ -221,33 +221,7 @@ function Cards() {
           </div>
         }
         footer={null}
-        // modalStyle={{ top: 15 }}
         style={{ top: previousContent ? -8 : 25, overflow: "hidden" }}
-        // title={
-        //   <div
-        //     style={{
-        //       display: "flex",
-        //       justifyContent: "space-between",
-        //       alignItems: "center",
-        //       width: "100%",
-        //     }}
-        //   >
-        //     {previousContent && (
-        //       <Button type="link" onClick={handleBack} className="backBtn">
-        //         {i18n.dir() === "rtl" ? (
-        //           <>
-        //             <DoubleRightOutlined className="back-icon" />
-        //           </>
-        //         ) : (
-        //           <>
-        //             <DoubleLeftOutlined className="back-icon" />
-        //           </>
-        //         )}
-        //       </Button>
-        //     )}
-        //   </div>
-        // }
-        // style={{ overflow: "hidden" }}
         className={isLargeModal ? "modalLarge" : ""}
       >
         <div
