@@ -232,7 +232,7 @@ html[dir="rtl"] .modal-header {
 }
 @media screen and (max-width: 840px) {
   .modal-header {
-    left: 20px;
+    left: 21px;
   }
   html[dir="rtl"] .modal-header {
     left: 40px;
@@ -312,7 +312,7 @@ html[dir="rtl"] .modal-header {
 }
 @media screen and (max-width: 419px) {
   .modal-header {
-    width: 89%;
+    width: 90%;
     left: 11px;
   }
 }
@@ -363,8 +363,8 @@ html[dir="rtl"] .modal-header {
 }
 @media screen and (max-width: 329px) {
   .modal-header {
-    width: 89%;
-    left: 7.5px;
+    width: 88.5%;
+    left: 8px;
   }
   html[dir="rtl"] .modal-header {
     width: 88.5%;
