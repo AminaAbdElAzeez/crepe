@@ -192,6 +192,10 @@
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
+    .ant-collapse-arrow,
+  :where(.css-7ny38l).ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header
     .ant-collapse-arrow {
     font-size: 10px !important;
   }
@@ -211,6 +215,10 @@
     font-size: 17px;
   }
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-arrow,
+  :where(.css-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-arrow {
@@ -242,6 +250,10 @@
     font-size: 10px;
   } */
   :where(.css-dev-only-do-not-override-7ny38l).ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-arrow,
+  :where(.css-7ny38l).ant-collapse
     > .ant-collapse-item
     > .ant-collapse-header
     .ant-collapse-arrow {
@@ -292,6 +304,12 @@
 @media screen and (max-width: 530px) {
   .collapse {
     font-size: 16px;
+  }
+  :where(.css-7ny38l).ant-collapse > .ant-collapse-item:last-child,
+  :where(.css-7ny38l).ant-collapse
+    > .ant-collapse-item:last-child
+    > .ant-collapse-header {
+    padding: 5px 5px !important;
   }
   /* .menu-item-new {
     font-size: 7px;
