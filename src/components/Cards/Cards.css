@@ -290,39 +290,42 @@ html[dir="rtl"] .modal-header {
 @media screen and (max-width: 514px) {
   .modal-header {
     /* width: 90%; */
-    left: 15px;
+    left: 22px;
+  }
+  html[dir="rtl"] .modal-header {
+    left: 22px;
   }
 }
 @media screen and (max-width: 484px) {
   .modal-header {
-    left: 12px;
+    left: 22px;
   }
   html[dir="rtl"] .modal-header {
-    left: 30px;
+    left: 22px;
   }
 }
 @media screen and (max-width: 464px) {
   .modal-header {
     /* width: 90%; */
-    left: 11px;
+    left: 22px;
   }
   html[dir="rtl"] .modal-header {
-    left: 28px;
+    left: 22px;
   }
 }
 @media screen and (max-width: 419px) {
   .modal-header {
     width: 90%;
-    left: 11px;
+    left: 22px;
   }
 }
 @media screen and (max-width: 385px) {
   .modal-header {
     /* width: 90%; */
-    left: 10px;
+    left: 22px;
   }
   html[dir="rtl"] .modal-header {
-    left: 28px;
+    left: 22px;
   }
   .modal-title {
     padding: 10px;
@@ -333,13 +336,13 @@ html[dir="rtl"] .modal-header {
     width: 250px;
   } */
   .modal-header {
-    left: 8px;
+    left: 20px;
   }
   .card-title {
     font-size: 18px;
   }
   html[dir="rtl"] .modal-header {
-    left: 25px;
+    left: 20px;
   }
 }
 .download-links {
@@ -364,11 +367,11 @@ html[dir="rtl"] .modal-header {
 @media screen and (max-width: 329px) {
   .modal-header {
     width: 88.5%;
-    left: 8px;
+    left: 20px;
   }
   html[dir="rtl"] .modal-header {
     width: 88.5%;
-    left: 25px;
+    left: 20px;
   }
 }
 @media screen and (max-width: 380px) {
