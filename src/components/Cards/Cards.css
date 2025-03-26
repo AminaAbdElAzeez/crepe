@@ -322,7 +322,7 @@ html[dir="rtl"] .modal-header {
 @media screen and (max-width: 385px) {
   .modal-header {
     /* width: 90%; */
-    left: 22px;
+    left: 20px;
   }
   html[dir="rtl"] .modal-header {
     left: 22px;
